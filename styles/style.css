@@ -1,0 +1,12 @@
+@import url("patterns/patterns.css");
+@import url("utilities/color.css");
+@import url("patterns/header.css");
+
+@import url("introduction.css");
+@import url("about.css");
+@import url("products.css");
+@import url("plans.css");
+@import url("qualities.css");
+@import url("newsletter.css");
+
+@import url("patterns/footer.css");

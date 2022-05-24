@@ -1,0 +1,29 @@
+#about .container {
+  border-top: 2px solid var(--back-2);
+  border-bottom: 2px solid var(--back-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#about .container .text-about {
+  flex: 2 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#about .container .text-about h1 {
+  font-size: 3em;
+}
+
+#about .container .text-about p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
+
+#about .container .img {
+  flex: 1 1 160px;
+}

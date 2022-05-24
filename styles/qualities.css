@@ -1,0 +1,43 @@
+#qualities .quality {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#qualities .quality .q-item {
+  flex: 1 1 300px;
+}
+
+#qualities .quality .q-item h4 {
+  color: #a4a4a4;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#qualities .quality .q-item h4::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2rem;
+  margin-right: 10px;
+}
+
+#qualities .quality .q-item p {
+  color: #a7a7a7;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.q-item:nth-of-type(3n + 1) h4::before {
+  background: #ae81ff;
+}
+
+.q-item:nth-of-type(3n + 2) h4::before {
+  background: #f9265e;
+}
+
+.q-item:nth-of-type(3n + 3) h4::before {
+  background: #66d9eb;
+}
